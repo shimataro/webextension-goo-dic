@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "goo-dic",
   "description": "goo辞書",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "shimataro",
   "chrome_settings_overrides": {
     "search_provider": {
