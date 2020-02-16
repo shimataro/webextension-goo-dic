@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "goo-dic",
+  "description": "goo辞書",
+  "version": "1.0.0",
+  "author": "shimataro",
+  "chrome_settings_overrides": {
+    "homepage": "https://dictionary.goo.ne.jp/",
+    "search_provider": {
+      "name": "goo辞書",
+      "search_url": "https://dictionary.goo.ne.jp/freewordsearcher.html?MT={searchTerms}&mode=0&kind=all",
+      "is_default": false,
+      "favicon_url": "https://dictionary.goo.ne.jp/favicon.ico",
+      "suggest_url": "https://dictionary.goo.ne.jp/suggest/all/{searchTerms}/5/"
+    }
+  }
+}
